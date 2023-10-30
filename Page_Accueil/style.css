@@ -61,7 +61,7 @@ a:hover{
 
 }
 
-label.obligatoire::after{
+label.obligatoire:after{
     content: "*";
     color: red;
 }
