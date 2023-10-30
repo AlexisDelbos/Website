@@ -1,0 +1,73 @@
+header{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background: radial-gradient(at top center,#CCDAE0, #EDF2F4);;
+}
+
+li
+{
+list-style: none;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    color: #2b2d42;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+article{
+    border: 1px solid black;
+}
+
+img{
+  justify-content: center; 
+  text-align:center;
+  margin: auto;
+  display: flex;
+  border: 2px solid black; 
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link{
+    color: #D90429 ;
+}
+
+a:visited{
+    color: grey;
+}
+
+
+a:hover{
+    color: #2B2D42;
+
+}
+
+label.obligatoire::after{
+    content: "*";
+    color: red;
+}
+    
+
+
+
+
+
